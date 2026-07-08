@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+/* Navigation */
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 100;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Underline */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Change opacity */
+nav ul li a:hover {
+    opacity: 0.7;
+}
+
+/* Change color and add underline */
+nav ul li a:hover {
+    color: #00bfff;
+    text-decoration: underline;
+}
+
+
+.hero {
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.overlay h1 {
+    font-size: 60px;
+}
+
+.overlay p {
+    margin-top: 15px;
+    font-size: 20px;
+
+}
+
+/*seperator*/
+.seperator{  
+	height: 90px;
+	background: linear-gradient(135deg,#00d4ff,#6c63ff);
+	clip-path: polygon(0 0,100% 40%,100% 100%,0 60%);
+}
+
+/*content */
+.content {  
+	padding: 80px 10%;
+	background: white;
+	text-align: center;
+}
+
+.content h2 {  
+	margin-bottom: 20px;
+	color: #333;
+}
+
+.content p{  
+	max-width: 700px;
+	margin: auto;
+	line-height: 1.8;
+	color: #555;
+}
+
